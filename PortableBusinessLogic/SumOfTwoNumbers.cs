@@ -1,4 +1,4 @@
-﻿namespace RobertoWorldWebApp1.Models
+﻿namespace PortableBusinessLogic
 {
     public class SumOfTwoNumbers
     {
@@ -11,7 +11,7 @@
         public int Result { get; set; }
     }
 
-    class CalculateSumOfTwoNumbersService
+    public class CalculateSumOfTwoNumbersService
     {
         public SumOfTwoNumbersResult Calculate(SumOfTwoNumbers input)
         {
