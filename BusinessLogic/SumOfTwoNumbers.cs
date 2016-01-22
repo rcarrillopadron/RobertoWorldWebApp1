@@ -1,4 +1,4 @@
-﻿namespace RobertoWorldWebApp1.Models
+﻿namespace BusinessLogic
 {
     public class SumOfTwoNumbers
     {
