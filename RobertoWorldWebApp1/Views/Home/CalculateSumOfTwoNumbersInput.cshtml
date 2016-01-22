@@ -1,0 +1,22 @@
+﻿@model RobertoWorldWebApp1.Models.SumOfTwoNumbers
+
+@{
+    ViewBag.Title = "Result";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2>Result</h2>
+
+<p>
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            @Html.LabelFor(x => x.Value1)
+            @Html.TextBoxFor(x => x.Value1)
+
+            @Html.LabelFor(x => x.Value2)
+            @Html.TextBoxFor(x => x.Value2)
+            <input type="submit" value="Calculate"/>
+        </fieldset>
+    }
+</p>
